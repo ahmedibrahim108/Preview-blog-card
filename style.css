@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 38rem;
+  border-radius: 13px;
+  border: 0.2rem solid black;
+  box-shadow: 0.6rem 0.6rem 0 black;
+}
+
+.container {
+  padding: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 9px;
+  margin-bottom: 1.6rem;
+}
+
+.subtitle {
+  max-width: 28%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  background-color: hsl(47, 88%, 63%);
+  margin-bottom: 1.2rem;
+}
+
+.publish-date {
+  margin-bottom: 1.6rem;
+  color: hsl(0, 0%, 7%);
+  font-size: 1.4rem;
+}
+
+.secondaryHeading {
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.6rem;
+}
+
+.descriptive-text {
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+
+.photo-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.photo-text p {
+  color: black;
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+}
+
+.photo-text img {
+  width: 5rem;
+}
